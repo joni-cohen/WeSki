@@ -1,0 +1,14 @@
+{
+  "name": "weSki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "cd client && npm run build && cd ../server && npm run start",
+    "install:client": "cd client/ && npm ci",
+    "install:server": "cd server/ && npm ci",
+    "install:all": "npm run install:server && npm run install:client"
+  },
+  "author": "",
+  "license": "ISC"
+}
