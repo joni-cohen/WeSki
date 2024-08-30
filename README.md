@@ -8,7 +8,9 @@ npm run start\
 open http://localhost:8080 in browser
 
 # Things that can be improved
+UI is not fully fix, would have improve it\
 I would have improve the UI components and more separation\
+Seoarate the form using react form or similar\
 Separate the style from components\
 Maybe would add react query for cache and performance \
 Also would have fully typed the code \
